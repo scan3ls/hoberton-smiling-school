@@ -17,10 +17,10 @@ body {
 /* BUTTONS */
 
   .btn-purple {
-    padding: 13px 20px;
-    font-size: 14px;
+    padding: 0.82rem 1.25rem;
+    font-size: 0.875rem;
     background-color: var(--purple);
-    border-radius: 22px;
+    border-radius: 1.375rem;
     border: none;
     filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
   }
@@ -40,15 +40,15 @@ body {
   }
 
   .font-size-small {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 
   .font-size-normal {
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .font-size-large {
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .font-size-xxlarge {
@@ -62,8 +62,8 @@ body {
 /* IMAGE */
 
   .avatar {
-    width: 150px;
-    height: 150px;
+    width: 9.375rem;
+    height: 9.375rem;
   }
 
 /* Section: Hero piece
@@ -77,8 +77,8 @@ body {
   }
 
   .img_smile {
-    width: 37px;
-    height: 30px;
+    width: 2.3rem;
+    height: 1.8rem;
   }
 
   .hero-header {
@@ -90,7 +90,7 @@ body {
   }
 
   .schooled {
-    font-size: 61px;
+    font-size: 3.8rem;
   }
 
   .mb-6 {
@@ -102,7 +102,7 @@ body {
 
     [class^="thumb-"] {
       width: 100%;
-      height: 154px;
+      height: 9.6rem;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -138,11 +138,11 @@ body {
   }
 
   .card-sm-img {
-    width: 30px;
-    height: 30px;
+    width: 1.8rem;
+    height: 1.8rem;
   }
 
   .img-star {
-    width: 15px;
-    height: 15px;
+    width: 1rem;
+    height: 1rem;
   }
