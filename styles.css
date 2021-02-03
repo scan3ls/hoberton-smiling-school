@@ -96,3 +96,53 @@ body {
   .mb-6 {
     margin-bottom: 5rem;
   }
+
+/* Section: Popular Videos
+    ================================================*/
+
+    [class^="thumb-"] {
+      width: 100%;
+      height: 154px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+  [class^="thumb-"] img{
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .thumb-1 {
+    background-image: url(./images/thumbnail_1.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .thumb-2 {
+    background-image: url(./images/thumbnail_2.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .thumb-3 {
+    background-image: url(./images/thumbnail_3.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .thumb-4 {
+    background-image: url(./images/thumbnail_4.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .card-sm-img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .img-star {
+    width: 15px;
+    height: 15px;
+  }
