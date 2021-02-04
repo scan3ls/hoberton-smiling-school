@@ -26,6 +26,13 @@ body {
     background-color: var(--bg-dark-blue);
   }
 
+  .bg-price {
+    background-image: url(images/pic_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
 /* BUTTONS */
 
   .btn-purple {
