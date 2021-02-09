@@ -33,6 +33,18 @@ body {
     background-size: cover;
   }
 
+  .bg-courses {
+    background-image: url(images/pic_3.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+  }
+
+  .bg-input {
+    background-color: rgba(256,256,256,0.25);
+    border: none;
+  }
+
 /* BUTTONS */
 
   .btn-purple {
@@ -85,6 +97,17 @@ body {
     height: 9.375rem;
   }
 
+/* INPUT */
+
+  .custom-select {
+    color: white;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='13' height='9' viewBox='0 0 13 9' fill='none'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M6.5 9L13 0H0L6.5 9Z' fill='white'/%3E%3C/svg%3E");
+  }
+
+  .custom-select option {
+    color: black;
+  }
+
 /* Section: Hero piece
     ==============================================*/
 
@@ -107,6 +130,10 @@ body {
 
   .mb-6 {
     margin-bottom: 5rem;
+  }
+
+  .hover-purple:hover {
+    color: var(--purple)!important;
   }
 
   @media screen and (min-width: 768px) {
@@ -158,6 +185,3 @@ body {
     width: 1rem;
     height: 1rem;
   }
-
-/* Section: Free membership
-    ===================================================*/
